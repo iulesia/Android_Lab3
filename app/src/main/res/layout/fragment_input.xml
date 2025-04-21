@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <EditText
+            android:id="@+id/etQuestion"
+            android:hint="@string/hint_question"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:autofillHints="text"
+            android:padding="12dp"
+            android:minHeight="48dp"
+            android:textColor="@android:color/black"
+            android:background="@android:drawable/edit_text" />
+
+        <TextView
+            android:text="@string/select_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textSize="16sp"
+            android:textColor="@android:color/black" />
+
+        <RadioGroup
+            android:id="@+id/rgType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="8dp">
+
+            <RadioButton
+                android:id="@+id/rbTheory"
+                android:text="@string/type_theory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:padding="8dp"
+                android:textColor="@android:color/black" />
+
+            <RadioButton
+                android:id="@+id/rbPractice"
+                android:text="@string/type_practice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:padding="8dp"
+                android:textColor="@android:color/black" />
+        </RadioGroup>
+
+        <TextView
+            android:text="@string/select_difficulty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:textSize="16sp"
+            android:textColor="@android:color/black" />
+
+        <RadioGroup
+            android:id="@+id/rgDifficulty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="8dp">
+
+            <RadioButton
+                android:id="@+id/rbEasy"
+                android:text="@string/difficulty_easy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:padding="8dp"
+                android:textColor="@android:color/black" />
+
+            <RadioButton
+                android:id="@+id/rbMedium"
+                android:text="@string/difficulty_medium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:padding="8dp"
+                android:textColor="@android:color/black" />
+
+            <RadioButton
+                android:id="@+id/rbHard"
+                android:text="@string/difficulty_hard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:padding="8dp"
+                android:textColor="@android:color/black" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnOk"
+            android:text="@string/ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:minHeight="48dp"
+            android:paddingHorizontal="24dp"
+            android:paddingVertical="12dp" />
+
+        <Button
+            android:id="@+id/btnOpen"
+            android:text="@string/open"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:minHeight="48dp"
+            android:paddingHorizontal="24dp"
+            android:paddingVertical="12dp" />
+
+    </LinearLayout>
+</ScrollView>

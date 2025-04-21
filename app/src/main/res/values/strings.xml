@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">lab3</string>
+    <string name="hint_question">Enter the question or task</string>
+    <string name="select_difficulty">Select difficulty:</string>
+    <string name="difficulty_easy">Easy</string>
+    <string name="difficulty_medium">Medium</string>
+    <string name="difficulty_hard">Hard</string>
+    <string name="select_type">Select type:</string>
+    <string name="type_theory">Theory</string>
+    <string name="type_practice">Practice</string>
+    <string name="ok">OK</string>
+    <string name="result_default">Result</string>
+    <string name="result">Result</string>
+    <string name="cancel">Cancel</string>
+    <string name="open">Open</string>
+</resources>
